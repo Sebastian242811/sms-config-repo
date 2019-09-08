@@ -11,5 +11,5 @@ zuul.routes.authenticationservice: /auth/**
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
-#hystrix.command.servicioprestamo.execution.isolation.thread.timeoutInMilliseconds: 2
+#hystrix.command.servicioprestamo.execution.isolation.thread.timeoutInMilliseconds: 3000
 #servicioprestamo.ribbon.ReadTimeout: 2
