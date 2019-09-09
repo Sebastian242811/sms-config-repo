@@ -8,3 +8,10 @@ spring.datasource.password: "{cipher}f2743ade2f2768880adffb2c07494c432af1a72a844
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
+
+
+## Agregado
+spring.jpa.properties.hibernate.temp.use_jdbc_metadata_defaults: false
+# Mostrar el detalle de la salud de un servicio
+management.endpoint.health.show-details: always
+management.endpoints.web.exposure.include: "*"
