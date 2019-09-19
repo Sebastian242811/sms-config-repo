@@ -17,4 +17,6 @@ spring.jpa.properties.hibernate.temp.use_jdbc_metadata_defaults: false
 management.endpoint.health.show-details: always
 management.endpoints.web.exposure.include: "*"
 
-
+# Redis Server
+redis.server: "redis"
+redis.port: "6379"
